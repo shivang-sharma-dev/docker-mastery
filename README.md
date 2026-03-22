@@ -1,6 +1,6 @@
 # Docker Mastery
 
-A comprehensive, practical guide to learning Docker for everyday engineering tasks. 
+A comprehensive, practical guide to learning Docker for everyday engineering tasks.
 
 ---
 
@@ -9,6 +9,7 @@ A comprehensive, practical guide to learning Docker for everyday engineering tas
 This repository is designed to help you understand how Docker actually works under the hood so that the commands and concepts feel natural. Instead of just memorizing flags, we focus on building a strong mental model of containers.
 
 You'll learn:
+
 - How containers differ from virtual machines
 - The relationship between namespaces, cgroups, and union filesystems
 - How to structure your images efficiently
@@ -19,7 +20,9 @@ You'll learn:
 ## Core Concepts
 
 ### The Container Model
+
 Unlike virtual machines that bundle an entire operating system, containers are isolated processes sharing the host's Linux kernel. They achieve isolation through:
+
 - **Namespaces**: Provide isolated views of the filesystem, network, and process IDs.
 - **cgroups**: Enforce limits on CPU, memory, and disk I/O.
 - **Union Filesystem**: Enables a layered, copy-on-write file system for efficient image storage.
@@ -28,18 +31,18 @@ Unlike virtual machines that bundle an entire operating system, containers are i
 
 ## Course Contents
 
-| # | Topic | Description |
-|---|---|---|
-| 01 | Introduction | What Docker is and why we use it |
-| 02 | Images | Image layers, caching, and building |
-| 03 | Containers | Running, inspecting, and debugging |
-| 04 | Dockerfile | Writing optimized Dockerfiles |
-| 05 | Volumes & Storage | Managing persistent data |
-| 06 | Networking | Container communication and networking models |
-| 07 | Docker Compose | Managing multi-container applications |
-| 08 | Registries | Tagging, pushing, and pulling images |
-| 09 | Multi-Stage Builds | Optimizing images for production |
-| 10 | Production Docker | Best practices for real-world deployments |
+| #   | Topic              | Description                                   |
+| --- | ------------------ | --------------------------------------------- |
+| 01  | Introduction       | What Docker is and why we use it              |
+| 02  | Images             | Image layers, caching, and building           |
+| 03  | Containers         | Running, inspecting, and debugging            |
+| 04  | Dockerfile         | Writing optimized Dockerfiles                 |
+| 05  | Volumes & Storage  | Managing persistent data                      |
+| 06  | Networking         | Container communication and networking models |
+| 07  | Docker Compose     | Managing multi-container applications         |
+| 08  | Registries         | Tagging, pushing, and pulling images          |
+| 09  | Multi-Stage Builds | Optimizing images for production              |
+| 10  | Production Docker  | Best practices for real-world deployments     |
 
 ---
 
@@ -111,4 +114,4 @@ If the `hello-world` container successfully prints "Hello from Docker!", your en
 
 ---
 
-*Part of the [DevOps Mastery](https://github.com/yourusername) learning series.*
+_Part of the [DevOps Mastery](https://github.com/shivang-sharma-dev) learning series._
